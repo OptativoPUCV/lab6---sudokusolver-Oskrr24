@@ -2,3 +2,14 @@ Thu 16 May 2024 01:31:50 AM UTC:
  tests:  0|5
 total_score: 0/70
 97679de
+Thu 16 May 2024 01:52:44 AM UTC: 
+ sudoku.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+In file included from test.c:5:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:58:19: error: unused variable ‘aux’ [-Werror=unused-variable]
+   58 |             Node* aux=copy(n);
+      |                   ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+119aaaf
